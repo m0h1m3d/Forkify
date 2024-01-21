@@ -112,5 +112,7 @@ const init = function () {
   model.loadLocalStorageUserRecipes();
   //render user recipes and bookmarks
   searchView.render([...model.state.userRecipes, ...model.state.bookmarks]);
+
+  console.log("Welcome to the app!");
 };
 init();
